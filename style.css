@@ -1,8 +1,9 @@
-:root{
+:root {
     --primary-color: #FFFAEF;
     --secundary-color: #4A44A3;
 }
-body{
+
+body {
     height: 100vh;
     background-color: var(--primary-color);
     padding: 0;
@@ -10,7 +11,8 @@ body{
     display: flex;
     flex-direction: column;
 }
-header{
+
+header {
     align-items: flex-start;
     justify-content: space-between;
     gap: 16px;
@@ -18,93 +20,106 @@ header{
     height: 55px;
     background-color: white;
 }
-.primeiro{
+
+.primeiro {
     font-size: 32px;
     color: var(--secundary-color);
     font-family: "Kavoon", serif;
 }
-.segundo{
+
+.segundo {
     font-size: 20px;
-    color: black;
 }
-.terceiro{
+
+.terceiro {
     font-size: 15px;
-    color: black;
 }
-main{
+
+main {
     flex-grow: 1;
     display: flex;
 }
-h1{
+
+h1 {
     font-size: 64px;
     display: flex;
     justify-content: left;
     align-items: center;
     color: white;
 }
-.left { 
+
+.left {
     flex: 1;
-    background-color: var(--secundary-color); 
-    color: white; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    padding: 40px; 
-}
-.right { 
-    flex: 1; 
-    background-color: var(--primary-color);
-    display: flex; 
+    background-color: var(--secundary-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    flex-direction: column; 
+    align-items: center;
     padding: 40px;
 }
-.buttons{
+
+.right {
+    flex: 1;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.buttons {
     display: flex;
     gap: 20px;
 }
+
 .btn-primary {
-  background-color: #e58a3a;
-  color: #fff;
-  border: none;
-  padding: 12px 28px;
-  border-radius: 25px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.3s ease;
+    background-color: #e58a3a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
+
 .btn-primary:hover {
-  background-color: #cf7b33;
-  transform: translateY(-2px);
+    background-color: #cf7b33;
+    transform: translateY(-2px);
 }
+
 .btn-outline {
-  background: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  padding: 12px 28px;
-  border-radius: 25px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.3s ease;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 28px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
+
 .btn-outline:hover {
-  background-color: #fff;
-  color: var(--secundary-color);
-  transform: translateY(-2px);
+    background-color: #fff;
+    color: var(--secundary-color);
+    transform: translateY(-2px);
 }
-.container{
+
+.container {
     display: flex;
     height: 100vh;
     width: 100%;
 }
-.cachorros{
+
+.cachorros {
     width: 80%;
     max-width: 600px;
     direction: inherit;
 }
-.descricao{
+
+.descricao {
     background-color: var(--secundary-color);
     padding-top: 5%;
     justify-self: auto;
