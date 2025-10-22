@@ -5,42 +5,35 @@
 body{
     height: 100vh;
     background-color: var(--primary-color);
-    padding: 70px;
+    padding: 0;
     font-family: Righteous, sans-serif;
     display: flex;
     flex-direction: column;
 }
 header{
-    align-items:baseline;
-    gap: 16px;
+    align-items: flex-start;
     justify-content: space-between;
-}
-.space{
-    padding-top: 5%;
+    gap: 16px;
+    display: flex;
+    height: 55px;
     background-color: white;
-    justify-content: center;
 }
 .primeiro{
     font-size: 32px;
     color: var(--secundary-color);
-    justify-content: space-between;
-    background-color: yellow;
+    font-family: "Kavoon", serif;
 }
 .segundo{
     font-size: 20px;
     color: black;
-    background-color: aliceblue;
 }
 .terceiro{
     font-size: 15px;
     color: black;
-    align-items: end;
-    background-color: #4A44A3;
 }
 main{
     flex-grow: 1;
     display: flex;
-    flex-direction: column;
 }
 h1{
     font-size: 64px;
@@ -49,17 +42,70 @@ h1{
     align-items: center;
     flex-grow: 1;
     color: white;
-    background-color: aqua;
 }
-.conteiner{
-    height: 300px;
-    color: white;
+.left { 
+    flex: 1;
+    background-color: var(--secundary-color); 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px; 
+}
+.right { 
+    flex: 1; 
+    background-color: var(--primary-color);
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    padding: 40px;
+}
+.buttons{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    background-color: wheat;
+    gap: 20px;
+}
+.btn-primary {
+  background-color: #e58a3a;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #cf7b33;
+  transform: translateY(-2px);
+}
+.btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn-outline:hover {
+  background-color: #fff;
+  color: var(--secundary-color);
+  transform: translateY(-2px);
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
 }
 .cachorros{
-    justify-content: flex-end;
-    background-color: aqua;
+    width: 80%;
+    max-width: 600px;
+}
+.descricao{
+    background-color: var(--secundary-color);
+    padding-top: 5%;
+    justify-self: auto;
 }
