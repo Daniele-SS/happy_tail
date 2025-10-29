@@ -25,14 +25,24 @@ header {
     font-size: 32px;
     color: var(--secundary-color);
     font-family: "Kavoon", serif;
+    position: absolute;
+    top: 5px;
+    left: 15px;
 }
 
 .segundo {
     font-size: 20px;
+    position: absolute;
+    top: 15px;
+    right: 822px;
+
 }
 
 .terceiro {
     font-size: 15px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
 }
 
 main {
@@ -45,7 +55,6 @@ h1 {
     display: flex;
     justify-content: left;
     align-items: center;
-    color: white;
 }
 
 .left {
@@ -58,8 +67,7 @@ h1 {
     align-items: center;
     padding: 50px;
     font-size: 20px;
-    left: 50px;
-    top: 50px;
+    gap: 16px;
 }
 
 .right {
