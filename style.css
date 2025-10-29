@@ -34,7 +34,7 @@ header {
     font-size: 20px;
     position: absolute;
     top: 15px;
-    right: 822px;
+    right: 725px;
 
 }
 
@@ -51,7 +51,7 @@ main {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 60px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -66,8 +66,8 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    font-size: 20px;
-    gap: 16px;
+    font-size: 24px;
+    gap: 30px;
 }
 
 .right {
@@ -77,7 +77,6 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
 }
 
 .buttons {
@@ -127,13 +126,13 @@ h1 {
 .botao{
     position: absolute;
     top: 55px;
-    right: 825px;
+    right: 725px;
 }
 
 .pata1{
     position: absolute;
     top: 750px;
-    right: 840px;
+    right: 740px;
 
 }
 
@@ -151,8 +150,8 @@ h1 {
 
 .pata4{
     position: absolute;
-    top: 170px;
-    right: 860px;
+    top: 150px;
+    right: 800px;
 }
 
 .descricao {
