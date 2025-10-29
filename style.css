@@ -125,7 +125,7 @@ h1 {
 .pata1{
     position: absolute;
     top: 750px;
-    right: 825px;
+    right: 840px;
 
 }
 
@@ -139,6 +139,12 @@ h1 {
     position: absolute;
     top: 720px;
     left: 20px;
+}
+
+.pata4{
+    position: absolute;
+    top: 170px;
+    right: 860px;
 }
 
 .descricao {
