@@ -43,6 +43,9 @@ header {
     position: absolute;
     top: 1%;
     right: 4%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 main {
@@ -68,6 +71,7 @@ h1 {
     padding: 50px;
     font-size: 24px;
     gap: 30px;
+    position: relative;
 }
 
 .right {
@@ -125,20 +129,10 @@ h1 {
     width: 100%;
 }
 
-.botao1 {
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 80vh;
-    justify-content: right;
-}
-
 .botao2 {
-    display: flex;
-    position: fixed;
-    top: 5%;
-    width: 90vh;
-    justify-content: right;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .pata1 {
