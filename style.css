@@ -171,3 +171,133 @@ h1 {
     padding-top: 5%;
     justify-self: auto;
 }
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .left {
+        font-size: 16px;
+
+    }
+
+    .primeiro {
+        font-size: 24px;
+    }
+
+    .segundo {
+        font-size: 20px;
+    }
+
+    .terceiro {
+        font-size: 14px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .pata1 {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .pata2 {
+        display: flex;
+        position: absolute;
+        top: 40px;
+        right: 50px;
+    }
+
+    .pata3 {
+        display: flex;
+        position: absolute;
+        top: 250px;
+    }
+
+    .pata4 {
+        display: flex;
+        position: absolute;
+        top: 250px;
+        right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        gap: 50px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .primeiro {
+        font-size: 20px;
+    }
+
+    .segundo {
+        font-size: 15px;
+    }
+
+    .terceiro {
+        font-size: 12px;
+    }
+
+    .left {
+        font-size: 12px;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 9px;
+    }
+
+    .right {
+        height: -1;
+        background-image: url(./img/cachorros.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .pata1 {
+        height: 70px;
+        display: flex;
+        position: absolute;
+        top: 15px;
+    }
+
+    .pata2 {
+        height: 70px;
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 70px;
+    }
+
+    .pata3 {
+        height: 70px;
+        display: flex;
+        position: absolute;
+        top: 200px;
+    }
+
+    .pata4 {
+        height: 70px;
+        display: flex;
+        position: absolute;
+        right: -60px;
+        top: 100px;
+    }
+}
