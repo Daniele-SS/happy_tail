@@ -46,3 +46,8 @@ O projeto foi executado seguindo o fluxo profissional de UI/UX e Desenvolvimento
 ├── style.css       # Estilização e Responsividade
 ├── reset.css       # Normalização de estilos entre navegadores
 └── img/            # Ativos visuais (Logos, patinhas e fotos)
+```
+---
+# Autor
+Daniele Silva Santos 
+
