@@ -49,5 +49,5 @@ O projeto foi executado seguindo o fluxo profissional de UI/UX e Desenvolvimento
 ```
 ---
 # Autor
-Daniele Silva Santos 
+[Daniele Silva Santos](https://www.linkedin.com/in/daniellesillva/)
 
