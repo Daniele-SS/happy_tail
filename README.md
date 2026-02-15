@@ -48,6 +48,6 @@ O projeto foi executado seguindo o fluxo profissional de UI/UX e Desenvolvimento
 └── img/            # Ativos visuais (Logos, patinhas e fotos)
 ```
 ---
-# Autor
+# Autora
 [Daniele Silva Santos](https://www.linkedin.com/in/danielesilvasantos/)
 
